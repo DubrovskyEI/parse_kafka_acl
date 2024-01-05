@@ -1,0 +1,43 @@
+Current ACLs for resource 'ResourcePattern(resourceType=TRANSACTIONAL_ID, name=*,patternType=LITERAL)': 
+(principal=User:testuser, host=*, operation=ALL, permissionType=ALLOW)
+
+Current ACLs for resource `ResourcePattern(resourceType=CLUSTER, name=kafka-cluster, patternType=LITERAL)`:
+(principal=User:testuser, host=*, operation=CLUSTER_ACTION, permissionType=DENY)
+(principal=User:testuser, host=*, operation=DESCRIBE_CONFIGS, permissionType=ALLOW)
+(principal=User:testuser, host=*, operation=IDEMPOTENT_WRITE, permissionType=ALLOW)
+(principal=User:testuser, host=*, operation=CREATE, permissionType=ALLOW)
+(principal=User:testuser, host=*, operation=ALTER_CONFIGS, permissionType=DENY)
+(principal=User:testuser, host=*, operation=DESCRIBE, permissionType=ALLOW)
+(principal=User:testuser, host=*, operation=ALTER, permissionType=DENY)
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=*, patternType=LITERAL)`:
+(principal=User:testuser, host=*, operation=ALL, permissionType=ALLOW)
+
+Current ACLs for resource `ResourcePattern(resourceType=GROUP, name=*, patternType=LITERAL)`:
+(principal=User:testuser, host=*, operation=ALL, permissionType=ALLOW)
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=kafka-topic1, patternType=LITERAL)`:
+(principal=User:testuser, host=*, operation=ALL, permissionType=ALLOW)
+(principal=User:testuser1, host=*, operation=DESCRIBE, permissionType=ALLOW)
+(principal=User:testuser1, host=*, operation=READ, permissionType=ALLOW)
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=kafka-topic2, patternType=LITERAL)`:
+(principal=User:testuser1, host=*, operation=DESCRIBE, permissionType=ALLOW)
+(principal=User:testuser1, host=*, operation=READ, permissionType=ALLOW)
+(principal=User:testuser1, host=*, operation=WRITE, permissionType=ALLOW)
+
+Current ACLs for resource `ResourcePattern(resourceType=GROUP, name=kafka-group1, patternType=LITERAL)`:
+(principal=User:testuser, host=*, operation=ALL, permissionType=ALLOW)
+(principal=User:testuser1, host=*, operation=DESCRIBE, permissionType=ALLOW)
+(principal=User:testuser1, host=*, operation=READ, permissionType=ALLOW)
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=kafka-topic1, patternType=LITERAL)`:
+(principal=User:testuser1, host=*, operation=ALTER, permissionType=ALLOW)
+(principal=User:testuser2, host=*, operation=DESCRIBE, permissionType=ALLOW)
+(principal=User:testuser2, host=*, operation=READ, permissionType=ALLOW)
+(principal=User:testuser2, host=*, operation=WRITE, permissionType=ALLOW)
+(principal=User:testuser2, host=*, operation=DELETE, permissionType=ALLOW)
+
+Current ACLs for resource `ResourcePattern(resourceType=GROUP, name=kafka-group1, patternType=LITERAL)`:
+(principal=User:testuser2, host=*, operation=DESCRIBE, permissionType=ALLOW)
+(principal=User:testuser2, host=*, operation=READ, permissionType=ALLOW)
