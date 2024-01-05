@@ -53,7 +53,7 @@ Access rules are stored in a dictionary:
 ```Text
 acl_dict = {('resource_name_1','resource_type_1'): {'name': 'resource_name_1',
                                                     'type': 'TOPIC',
-													1: {'principal': 'principal_1', 'operation': 'operation_1', 'permissionType': 'permissionType_1'},
+                                                    1: {'principal': 'principal_1', 'operation': 'operation_1', 'permissionType': 'permissionType_1'},
                                                     2: {'principal': 'principal_2', 'operation': 'operation_2', 'permissionType': 'permissionType_2'}}}
 ```
 
