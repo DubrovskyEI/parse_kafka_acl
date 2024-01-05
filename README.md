@@ -6,9 +6,9 @@ This script allows you to obtain access rules from Kafka ACL list in required fo
 
 Rules may be filtered for next criteria:
 
-- 1. Principal
-- 2. Resource type
-- 3. Resource name
+1. Principal
+2. Resource type
+3. Resource name
 
 ### Execution
 
