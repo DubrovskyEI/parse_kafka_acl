@@ -82,5 +82,5 @@ kafka-acls.sh --list --bootstrap-server localhost:9092 --command-config client.p
 > 2. https://kafka.apache.org/20/javadoc/org/apache/kafka/common/resource/ResourceType.html
 > 3. https://pythonworld.ru/tipy-dannyx-v-python/slovari-dict-funkcii-i-metody-slovarej.html
 > 4. https://jenyay.net/Programming/Argparse
-> 5. https://pyneng.readthedocs.io/ru/latest/book/additional_info/argparse.html
+> 5. https://pyneng.readthedocs.io/ru/latest/
 > 6. https://www.instaclustr.com/support/documentation/kafka/accessing-and-using-kafka/kafka-acl-management/
