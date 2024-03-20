@@ -62,7 +62,7 @@ Keys in the dictionary for each resource:
 
 - **name** resource name
 - **type** resource type
-- **порядковый номер правила** the value is a dictionary with keys:
+- **sequence number of the rule** the value is a dictionary with keys:
   - **principal** principal
   - **operation** operation
   - **permissionType** permission type								
